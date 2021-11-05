@@ -1,9 +1,10 @@
 import './App.css';
+import NavBar from './navbar.components/navbarGoogle';
 
 function App() {
   return (
     <div className="App">
-      <h1>Team Lannister</h1>
+     <NavBar />
     </div>
   );
 }
