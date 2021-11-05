@@ -69,3 +69,50 @@
     padding: 7px 13px;
     border-radius: 3px;
   }
+
+
+
+  /* SideHustle Logo */
+  .side1{
+      height: 92px;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+
+  }
+  /* .side2 .img{
+    height: 60px;
+
+  } */
+  /* .voicebox{
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    max-height: 160px;
+   
+  } */
+
+  /* .voicebox .dialog1{
+      background: transparent;
+      border: none;
+      height: fit-content;
+      width: fit-content;
+      position:absolute;
+      left: 0;
+      right: 0;
+  } */
+
+  /* SearchBox */ 
+  .search{
+    display: block;
+  }
+  .search1 .search1a{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: auto;
+    max-width: 584px;
+    background-color: turquoise;
+}
