@@ -7,7 +7,7 @@
     width: 272px;
     margin: 20px auto;
 }
-.searchInput{
+.searchInput > div{
     background: #fff;
     display: flex;
     align-items: center;
