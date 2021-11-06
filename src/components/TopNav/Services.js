@@ -8,12 +8,7 @@ const Services = () =>{
         {image: Account,title: "Account"}, {image: Search,title: "Search"},{image: Map,title: "Maps"},
         {image: Map,title: "YouTube"}, {image: Map,title: "Play"},{image: Map,title: "News"},
         {image: Map,title: "Gmail"}, {image: Map,title: "Meets"},{image: Map,title: "Chat"},
-        {image: Map,title: ""}, {image: Map,title: ""},{image: Map,title: ""},
-        {image: Map,title: ""}, {image: Map,title: ""},{image: Map,title: ""},
-        {image: Map,title: ""}, {image: Map,title: ""},{image: Map,title: ""},
-        {image: Map,title: ""}, {image: Map,title: ""},{image: Map,title: ""},
-        {image: Map,title: ""}, {image: Map,title: ""},{image: Map,title: ""},
-        {image: Map,title: ""}, {image: Map,title: ""},{image: Map,title: ""},
+       
     ]
     return(
         <div className="services">

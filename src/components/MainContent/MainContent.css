@@ -16,6 +16,9 @@
     overflow: hidden;
     margin: 0 auto;
 }
+.centerC{
+    margin: 20px;
+}
 .searchInput > div{
     background: #fff;
     display: flex;
