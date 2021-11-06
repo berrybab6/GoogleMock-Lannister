@@ -1,9 +1,12 @@
 import './App.css';
+import Navbar from './components/Navbar.js'
+import Home from './components/Home.js'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Team Lannister</h1>
+    <div>
+      <Navbar />
+      <Home />
     </div>
   );
 }
