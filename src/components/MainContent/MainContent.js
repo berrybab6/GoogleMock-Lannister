@@ -1,16 +1,18 @@
+import { useState } from 'react'
 import './MainContent.css'
 import Logo from '../../images/logo.jpg'
 import Mic from '../../images/google_mic.png'
 import SearchIcon from '../../images/google_search.svg'
 
 const MainContent = () =>{
+    const [SearchText, setSearchText] = useState("")
     return(
         <div className="MainContent">
             <img src={Logo} alt="Site Hustle Logo" className="logo"/>
             <div className="search">
                 <div className="searchInput">
                     <img src={SearchIcon} alt="mic" />
-                    <input type="text" placeholder="" />
+                    <input type="text" placeholder="" value={SearchText} onChange={e=> setSearchText(e.target.value)} />
                     <img src={Mic} alt="mic" />
                 </div>
                 <div className="buttons">
