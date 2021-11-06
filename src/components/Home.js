@@ -10,10 +10,11 @@ const Home = () => {
     const [textUpdate, setTextUpdate] = useState("") 
     return (
         <div className="container">
-            <img
+
+            {(!textUpdate)?<img
             src="./side-hustle-logo.jpeg"
             alt="Side-hustle-logo"
-            />
+            />:<div className="center"><h2>{textUpdate}</h2></div>}
 
             <div className="search">
                 <div className="search-input">
@@ -22,7 +23,7 @@ const Home = () => {
                      className="icons"
                      />
 
-                     <input type="text" value={textUpdate}  />
+                     <input type="text" value={textUpdate} onChange={e => setTextUpdate(e.target.value)} />
 
                      <Icon path={ mdiMicrophone}
                      size={1.7}

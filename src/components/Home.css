@@ -10,9 +10,18 @@
 
 }
 
-.container img{
+.container img {
     object-fit: contain;
     height: 100px;
+}
+
+h2{
+    width: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    text-align: center;
 }
 
 .search-input{
