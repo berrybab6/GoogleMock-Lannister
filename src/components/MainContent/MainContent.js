@@ -8,7 +8,7 @@ const MainContent = () =>{
     const [SearchText, setSearchText] = useState("")
     return(
         <div className="MainContent">
-            <img src={Logo} alt="Site Hustle Logo" className="logo"/>
+           {(!SearchText)?<img src={Logo} alt="Site Hustle Logo" className="logo"/>:<div className="centerC"><h2>{SearchText}</h2></div>}
             <div className="search">
                 <div className="searchInput">
                     <div>

@@ -16,6 +16,14 @@
     overflow: hidden;
     margin: 0 auto;
 }
+
+.centerC{
+margin-bottom: 30px;
+}
+
+.centerC h2{
+    font-size: 33px;
+}
 .searchInput > div{
     background: #fff;
     display: flex;
