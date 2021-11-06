@@ -7,20 +7,28 @@
     width: 272px;
     margin: 20px auto;
 }
+.searchInput{
+    width: fit-content;
+    height: auto;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    overflow: hidden;
+    margin: 0 auto;
+}
 .searchInput > div{
     background: #fff;
     display: flex;
     align-items: center;
-    border: 1px solid #dfe1e5;
-    box-shadow: none;
-    border-radius: 24px;
     z-index: 3;
     height: 44px;
-    margin: 0 auto;
-    width: auto;
-    max-width: 584px;
+    width: 100%;
+    width: 584px;
     overflow: hidden;
     padding: 0 20px;
+}
+.searchInput .searchResults{
+    border-top: 1px solid #dfe1e5;
 }
 .searchInput input{
     border: none;

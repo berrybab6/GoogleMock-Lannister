@@ -16,6 +16,10 @@ const MainContent = () =>{
                     <input type="text" placeholder="" value={SearchText} onChange={e=> setSearchText(e.target.value)} />
                     <img src={Mic} alt="mic" />
                     </div>
+                    {(!SearchText)? <p>{SearchText}</p> :
+                     <div className="searchResults">
+                     <p>{SearchText}</p>
+                     </div>}
                 </div>
                 <div className="buttons">
                     <a href="/" >Google Search</a>
