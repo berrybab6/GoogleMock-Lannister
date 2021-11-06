@@ -30,6 +30,20 @@
 .searchInput .searchResults{
     border-top: 1px solid #dfe1e5;
 }
+.searchInput .searchResults p{
+    cursor: pointer;
+    background-image: url(../../images/search-bg.gif);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 40px;
+
+}
+
+.searchInput .searchResults p:hover{
+    background-color: aliceblue;
+    
+}
+
 .searchInput input{
     border: none;
     width: 100%;
