@@ -9,6 +9,11 @@
     margin-top: 12%;
 
 }
+.center{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+}
 
 .container img{
     object-fit: contain;
