@@ -11,9 +11,11 @@ const MainContent = () =>{
             <img src={Logo} alt="Site Hustle Logo" className="logo"/>
             <div className="search">
                 <div className="searchInput">
+                    <div>
                     <img src={SearchIcon} alt="mic" />
                     <input type="text" placeholder="" value={SearchText} onChange={e=> setSearchText(e.target.value)} />
                     <img src={Mic} alt="mic" />
+                    </div>
                 </div>
                 <div className="buttons">
                     <a href="/" >Google Search</a>
