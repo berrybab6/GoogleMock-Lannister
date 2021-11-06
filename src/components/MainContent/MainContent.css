@@ -1,0 +1,77 @@
+.MainContent{
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.logo{
+    width: 272px;
+    margin: 20px auto;
+}
+.searchInput{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.searchInput input{
+    border: none;
+    width: 100%;
+    background: transparent;
+    margin-left: 13px;
+    outline: none;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,.87);
+}
+.searchInput img{
+    width: 24px;
+}
+.buttons{
+    margin: 30px auto;
+}
+.buttons a{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 8px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.languages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    height: max-content;
+    color: #3c4043;
+    line-height: 28px;
+}
+.languages p{
+    display: inline;
+    padding-right: 8px;
+}
+.languages a{
+    padding: 0 3px;
+    color: #1a0dab;
+}
+.languages a:hover{
+    text-decoration: underline;
+}

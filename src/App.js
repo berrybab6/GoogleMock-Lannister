@@ -1,9 +1,14 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
+import MainContent from './components/MainContent/MainContent';
+import TopNav from './components/TopNav/Topnav';
 
 function App() {
   return (
     <div className="App">
-      <h1>Team Lannister</h1>
+      <TopNav />
+      <MainContent />
+      <Footer />
     </div>
   );
 }

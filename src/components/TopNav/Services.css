@@ -1,0 +1,43 @@
+
+/* Service Component */
+
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 36px 15px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.services > div{
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 12px;
+}
+.services > div:hover{
+    background-color: rgb(138, 180, 248);
+    /* border-radius: 8px; */
+    padding: 12px;
+}
+.services img{
+    width: 36px;
+    height: 36px;
+    background: transparent;
+}
+.services a{
+    background-color: #ffffff;
+    border: 1px solid #dadce0;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    font: 500 14px Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    letter-spacing: .15px;
+    margin: 16px auto;
+    outline: 0;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    grid-column: 1/4;
+    width: max-content;
+    color: rgb(77, 77, 245);
+}
