@@ -6,6 +6,7 @@ import Profile from './Profile'
 
 const ButtonContent = () =>{
     const [hideImg, showImg] = useState(false)
+    
     const handleImg = () =>{
                  showImg(
                     <div className="ButtonContent"><Profile /></div>
@@ -16,8 +17,10 @@ const ButtonContent = () =>{
                 <div className="ButtonContent"><Services /></div>
                 )
     }
+
     return (
         <>
+        {}
              <img src={Grid} alt="" className="google_grid" onClick={handleService}/>
             <img src={ProfileImg} alt="" className="profileImg" onClick={handleImg} />
             {hideImg}
