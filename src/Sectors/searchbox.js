@@ -1,12 +1,24 @@
-import React from "react";
-import SideLogo from "./sidelogo.components";
+import React, { useState } from "react";
+import side3 from '../images/side3.jpg';
+
 
 const SearchBox =()=>{
+    const [userText, setUserText] = useState("");
+
     return (
+<div>
+        <form onSubmit={(e)=>setUserText(userText)} >
+        <div className="side1">
+        <div className="side2">
+            {(!userText)?<img src={side3}></img>:<h1>{userText}</h1>}
+            </div>
+    </div>
+
         <div className="top">
-        <form className="formwrap">
+        <div className="formwrap" >
             <div className="wrap">
                 <div className="searchItem">
+
                     <div className="searchInside">
                         <div className="searchText">
                             {/* Search Icon */}
@@ -22,8 +34,11 @@ const SearchBox =()=>{
                             {/* Input Box */}
                             <div className="inputmain">
                                 <div className="inputBlock"></div>
-                                <input className="inputText" maxlength="2048" type="text"
-                                 aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" 
+                                <input className="inputText" 
+                                // we will update usertext value here
+                                value={userText} onChange={(e)=>setUserText(e.target.value)} 
+                                
+                                maxlength="2048" type="text" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" 
                                  autocomplete="off" autocorrect="off" autofocus title="Search" spellcheck="false"/>
                             </div>
 
@@ -49,14 +64,15 @@ const SearchBox =()=>{
                                     </svg>
                                 </div>
                                 </div>
-
+                            
                         </div>
                     </div>
                 </div>
             </div>
-        </form>
+        </div>
 </div>
-
+</form>
+</div>
     );
 };
 
