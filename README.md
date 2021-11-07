@@ -1,8 +1,8 @@
-  #Group Members of Team Lannister 
+          Group Members of Team Lannister 
 
 Kelvin Ampomah Boateng 
 
-Juliet Adeboye
+Juliet Adeboye           
 
 Komolafe joshua Olamide
 
