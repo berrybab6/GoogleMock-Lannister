@@ -100,11 +100,12 @@
 
 
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 1200px){
     .searchInput {
         width: 70%;
     }
     .languages {
         display: block;
     }
+    
 }
