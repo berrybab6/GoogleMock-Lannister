@@ -11,11 +11,11 @@ const Footer = () =>{
                 <a href="/">Business</a>
                 <a href="/">How Search Works</a>
                 </div>
-                <div>
+                {/* <div>
                     <img src={Carbon} alt="copyright" />
                     <a href="/">Carbon neutral since 2007</a>
-                </div>
-                <div className="footer-links">
+                </div> */}
+                <div className="footer-links lela">
                 <a href="/">Privacy</a>
                 <a href="/">Terms</a>
                 <a href="/">Settings</a>
