@@ -23,7 +23,7 @@
     z-index: 3;
     height: 44px;
     width: 100%;
-    width: 584px;
+    /* width: 584px; */
     overflow: hidden;
     padding: 0 20px;
 }
@@ -96,4 +96,15 @@
 }
 .languages a:hover{
     text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 750px){
+    .searchInput {
+        width: 90%;
+    }
+    .languages {
+        display: block;
+    }
 }

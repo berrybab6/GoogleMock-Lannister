@@ -35,3 +35,24 @@
     height:12.5px;
     padding-right: 6px;
 }
+
+@media only screen and (max-width: 750px){
+    .copyright {
+        display: block;
+        text-align: center;
+    }
+    .copyright > div {
+        display: block;
+    }
+    .copyright .footer-links:nth-child(even) a:first-child {
+        padding-left: 15px;
+    }
+
+    .footer > div {
+     padding: 15px 15px;
+    }
+        .footer-links a {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+}

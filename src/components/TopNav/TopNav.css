@@ -1,5 +1,5 @@
 .links{
-    width: 218px;
+    width: fit-content;
     margin-left: auto;
     margin-right: 0;
     display: flex;
@@ -7,6 +7,14 @@
     align-items: center;
     padding: 10px 14px;
 }
+
+.links > div:first-child{
+    margin-right: 30px;
+}
+.links > div a:first-child{
+    margin-right: 15px;
+}
+
 .links a{
     font-family: arial,sans-serif;
     color: rgba(0,0,0,0.87);
@@ -19,6 +27,7 @@
     width: 32px;
     height: 32px;
     border-radius: 50%;
+    margin-left: 10px;
 }
 
 .google_grid{
@@ -59,5 +68,19 @@
 ​
 .ButtonContent *{
     overflow: hidden;
+}
+
+@media only screen and (max-width: 750px){
+
+    .links{
+        width: 100%;
+        margin-left: auto;
+        margin-right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 14px;
+    }
+
 }
 

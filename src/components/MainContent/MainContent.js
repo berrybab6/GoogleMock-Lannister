@@ -27,10 +27,12 @@ const MainContent = () =>{
                 </div>
                 <div className="languages">
                     <p>Google offered in: </p>
+                    <div>
                     <a href="/">Hausa</a>
                     <a href="/">Igbo</a>
                     <a href="/">Yoruba</a>
                     <a href="/">Nigeria Pidgin</a>
+                    </div>
                 </div>
             </div>
         </div>
