@@ -16,14 +16,6 @@
     overflow: hidden;
     margin: 0 auto;
 }
-
-.centerC{
-margin-bottom: 30px;
-}
-
-.centerC h2{
-    font-size: 33px;
-}
 .searchInput > div{
     background: #fff;
     display: flex;
@@ -31,7 +23,7 @@ margin-bottom: 30px;
     z-index: 3;
     height: 44px;
     width: 100%;
-    width: 584px;
+    /* width: 584px; */
     overflow: hidden;
     padding: 0 20px;
 }
@@ -104,4 +96,15 @@ margin-bottom: 30px;
 }
 .languages a:hover{
     text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 750px){
+    .searchInput {
+        width: 90%;
+    }
+    .languages {
+        display: block;
+    }
 }
